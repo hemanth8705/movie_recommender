@@ -1,36 +1,43 @@
-MOVIE RECOMMENDER
-Installation
+# Movie Recommender
 
-Clone the repository:
+A web-based application to recommend movies using collaborative filtering.
 
-Bash
+## Installation
+
+Follow these steps to set up the project on your local machine:
+
+### 1. Clone the Repository
+
+Clone the repository to your local machine using the following command:
+
+```bash
 git clone https://github.com/hemanth8705/movie-recommender
-Use code with caution.
+```
 
-This will download the project files to your local machine.
+### 2. Navigate to Project Directory
 
-Install dependencies:
+Change your directory to the project folder:
 
-Navigate to the project directory:
-
-Bash
+```bash
 cd movie_recommender
-Use code with caution.
+```
 
-Install the required Python packages using the requirements.txt file:
+### 3. Install Dependencies
 
-Bash
+Install the required Python packages using the `requirements.txt` file:
+
+```bash
 pip install -r requirements.txt
-Use code with caution.
+```
 
 This will install all the necessary libraries needed to run the application.
 
-Running the App
+## Running the App
 
-Start the Streamlit server:
+Start the Streamlit server to launch the application:
 
-Bash
+```bash
 streamlit run app.py
-Use code with caution.
+```
 
-This will launch a web browser window with the movie recommender app.
+This command will open a web browser window with the movie recommender app.
